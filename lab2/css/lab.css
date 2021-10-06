@@ -1,0 +1,29 @@
+h1{
+  color: purple;
+  font-size: 200%;
+  margin-left: 170px;
+}
+
+p{
+  font-family: "Brush Script MT";
+  text-indent: 20px;
+  margin-left: 10px;
+  font-size: 150%;
+  font-weight: 100;
+  color: brown;
+}
+
+img{
+  margin-left: 200px;
+  max-width: 90px;
+  max-height: auto;
+  border: dashed 1px purple;
+}
+
+#content {
+  background-color: #a6ccf5;
+  width: 560px;
+  min-height: 250px;
+  padding: 30px;
+  border: dotted 3px brown;
+}
