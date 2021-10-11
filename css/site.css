@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(151, 127, 161);
+  font-family: Monaco, monospace;
+}
+
+p{
+  font-family: "Lucida Console", monospace;
+}
+
+#selfie {
+  width: 200px;
+  height: auto;
+  float: right;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+#labs{
+  border: dashed 1px pink;
+  width: 300px;
+}
