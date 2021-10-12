@@ -1,0 +1,19 @@
+body{
+  background-color: pink;
+}
+
+img{
+  float: right;
+  width: 600px;
+  height: auto;
+  padding-right: 70px;
+  padding-left: 40px;
+}
+
+p{
+  font-size: 18px;
+}
+
+#text{
+  padding-right: 20px;
+}
