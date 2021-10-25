@@ -1,0 +1,22 @@
+#text{
+  background: #7fa186;
+  border-style: groove;
+  border-color: #9aa17f;
+  box-shadow: 50px;
+  padding: 30px;
+  width: 700px;
+  height: auto;
+  text-align: center;
+  border-radius: 25px;
+  margin: auto;
+}
+
+#output{
+  border: dashed 2px white;
+  width: 400px;
+  height: auto;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin: auto;
+  color: white;
+}
