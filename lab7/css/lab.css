@@ -1,3 +1,8 @@
+body{
+  background-image: linear-gradient(to bottom right, #a17f9a, #a1867f, #7f9aa1);
+  height: 900px;
+}
+
 #text{
   background: #7fa186;
   border-style: groove;
