@@ -19,3 +19,7 @@ p{
   border: dashed 1px pink;
   width: 300px;
 }
+
+a{
+  color: pink;
+}
