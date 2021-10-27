@@ -8,9 +8,17 @@
   text-align: center;
   border-radius: 25px;
   margin: auto;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
 }
 
 body{
   background-image: linear-gradient(to bottom right, #5cc2ed, #ed8a5c, #edd25c, #ba5ced);
   height: 900px;
+}
+
+h2{
+  color: #edd25c;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: "Urbanist", sans-serif;
 }
