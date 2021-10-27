@@ -1,0 +1,16 @@
+#text{
+  background: #edd25c;
+  border-style: dashed;
+  border-color: #bd6128;
+  padding: 30px;
+  width: 700px;
+  height: auto;
+  text-align: center;
+  border-radius: 25px;
+  margin: auto;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #5cc2ed, #ed8a5c, #edd25c, #ba5ced);
+  height: 900px;
+}
