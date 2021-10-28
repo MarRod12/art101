@@ -5,28 +5,23 @@
 * License: Public Domain
 */
 
-var array = [4, 8, 10, 9, 14]       //array
+  function divbyThree(x){                //is it divisible by three
+    return (x % 3 == 0);                //return true or false
+    }
 
-function divbyThree(x){                //is it divisible by three
-  return (x % 3 == 0);                //return true or false
-  }
+//test function
+  console.log("Is 4 divisble by 3: ", divbyThree(4));
+  console.log("Is 24 divisble by 3: ", divbyThree(24));
 
-  divbyThree(4);                    //is 4 divisble by 3
-  divbyThree(24);                   //is 24 divisble by 3
+  var array = [5, 13, 27, 9, 360, 1200]       //array
+  console.log("My array: ", array);          //print array in console
 
-  array.map(divbyThree);            //check if any integer in the array inspect
-                                   //divisble by 3
+  var result = array.map(divbyThree);        //test the divisibility of my array
+  console.log("Is my array divisble by 3: ", result);     //print results
 
-  console.log(divbyThree);            //print in console
-  console.log(divbyThree(4));         //print true or false in console
-  console.log(divbyThree(24));        // print true or false in console
+  var result = array.map( function(x){        //new operation on array
+    return x / 3;
+  })
 
-  console.log(array.map(divbyThree));     //print answers to if the array is
-                                          //divisble by 3
-
-  function answer(x){                     //multiply array times 3
-    return (x * 3);
-  }
-
-  console.log(answer);                    //print function in console
-  console.log(array.map(answer));         //print the array multiplied by 3
+  console.log("My array divided by 3: ", result);
+  //should print [1.66666667, 4.33333333, 9, 120, 400]
