@@ -12,7 +12,7 @@ let new1El = document.createElement("p");  //create element p
 let linebreak = document.createElement("br");  //create line break element
 let linebreak2 = document.createElement("br"); //second line break
 
-let change1El = document.createTextNode("This is something new! ");  //change text of new element
+let change1El = document.createTextNode("This is something new!");  //change text of new element
 console.log(change1El);  //print in console
 
 outputEl.appendChild(change1El);   //add it to the results div
@@ -26,3 +26,8 @@ let change2El = document.createTextNode("This is a second new element. :)");
 console.log(change2El);  //print in console
 
 outputEl.appendChild(change2El);   //add it to the results div
+
+document.getElementById("heading1").style.color = "pink";  //change color of Challenges
+document.getElementById("heading2").style.color = "pink";  //change color of Problems
+document.getElementById("heading3").style.color = "pink";  //change color of Results
+document.getElementById("output").style.color = "white";  //change color of output

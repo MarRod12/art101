@@ -1,7 +1,7 @@
 #content{
-  background: #edd25c;
+  background: pink;
   border-style: dashed;
-  border-color: #bd6128;
+  border-color: #c75bb7;
   padding: 30px;
   width: 700px;
   height: auto;
@@ -13,6 +13,10 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom right, #5cc2ed, #ed8a5c, #edd25c, #ba5ced);
+  background-image: linear-gradient(to bottom right, #cbffc0, #e67f90, #c0d6ff, #ffdac0);
   height: 900px;
+}
+
+h2{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
