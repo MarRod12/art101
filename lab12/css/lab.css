@@ -13,7 +13,7 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom right, #740001, #2A623D, #FFED86, #222F5B);
+  background-image: linear-gradient(to bottom right, #222F5B, #2A623D, #FFED86, #740001);
   height: 780px;
 }
 
@@ -21,4 +21,14 @@ h2{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: #c9c49d;
   font-family: "Irish Grover", cursive;
+}
+
+#code{
+  border-style: dashed;
+  text-align: center;
+  padding-bottom: 20px;
+  border-color: #8f650b;
+  width: 550px;
+  border-radius: 25px;
+  margin: auto;
 }
