@@ -1,23 +1,24 @@
 #content{
-  background: #79cced;
-  border-style: double;
-  border-color: #4995b3;
+  background: #c9c49d;
+  border-style: groove;
+  border-color: #8f650b;
   padding: 30px;
   width: 700px;
   height: auto;
   text-align: center;
   border-radius: 25px;
   margin: auto;
-  font-family: "Exo", sans-serif;
+  font-family: cursive;
   font-weight: 600;
 }
 
 body{
-  background-image: linear-gradient(to bottom right, #79cced, #8a79ed, #79ed9a);
-  height: 900px;
+  background-image: linear-gradient(to bottom right, #740001, #2A623D, #FFED86, #222F5B);
+  height: 780px;
 }
 
 h2{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  color: #79cced;
+  color: #c9c49d;
+  font-family: "Irish Grover", cursive;
 }
