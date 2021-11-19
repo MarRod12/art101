@@ -5,9 +5,10 @@
 * License: Public Domain
 */
 
-function fizzbuzz(i) {
+function fizzbuzzboom() {
   for (var i = 1; i < 201; i++) {             // loop from 1 to 200
     if (i % 15 == 0) {
+      document.writeln("FizzBuzz");
       console.log("FizzBuzz");
       }           // if divisble by 15
     else if (i % 21 == 0) {
@@ -26,6 +27,6 @@ function fizzbuzz(i) {
       console.log("Boom");
       }                // if divisble by 7
     }
-}
+ }
 
-console.log(fizzbuzz());
+fizzbuzzboom();
