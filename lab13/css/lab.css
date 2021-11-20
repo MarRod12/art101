@@ -22,9 +22,10 @@ h2{
   color: #ff96e8;
 }
 
-table, td, tr{
-  width: inherit;
+table{
+  width: 700px;
+  height: auto;
   border: 1px solid black;
-  border-collapse: collapse;
   border-radius: 25px;
+  padding: 10px;
 }
