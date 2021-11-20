@@ -1,7 +1,7 @@
 #content{
-  background: #79cced;
-  border-style: double;
-  border-color: #4995b3;
+  background: #ff96e8;
+  border-style: dashed;
+  border-color: #e300b9;
   padding: 30px;
   width: 700px;
   height: auto;
@@ -13,11 +13,18 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom right, #79cced, #8a79ed, #79ed9a);
+  background-image: linear-gradient(to bottom right, #ff96b4, #ffa296, #e196ff);
   height: 900px;
 }
 
 h2{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  color: #79cced;
+  color: #ff96e8;
+}
+
+table, td, tr{
+  width: inherit;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 25px;
 }
