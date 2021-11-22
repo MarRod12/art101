@@ -1,0 +1,27 @@
+body {
+  background-color: #e8e9eb;
+}
+
+button {
+  text-align: center;
+  margin: 80px 80px;
+  margin-left: 250px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  width: 100px;
+}
+
+#homeLink {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  text-decoration: none;
+  border: inset;
+}
+
+#content {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
