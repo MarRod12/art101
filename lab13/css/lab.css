@@ -22,10 +22,12 @@ h2{
   color: #ff96e8;
 }
 
-table{
-  width: 700px;
-  height: auto;
-  border: 1px solid black;
+#output {
+  border: 1px black;
+  border-style: solid;
   border-radius: 25px;
   padding: 10px;
+  width: 450px;
+  margin: inherit;
+  text-align: center;
 }

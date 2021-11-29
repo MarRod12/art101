@@ -1,0 +1,35 @@
+#content{
+  background: #fc6b03;
+  border-style: dashed;
+  border-color: #823c0a;
+  padding: 30px;
+  width: 700px;
+  height: 600px;
+  text-align: center;
+  border-radius: 25px;
+  margin: auto;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #fce703, #0356fc, #d203fc);
+  height: 900px;
+}
+
+h2{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: #fc6b03;
+}
+
+#img1 {
+    width: 350px;
+    height: auto;
+    float: left;
+}
+
+#img2 {
+  width: 350px;
+  height: auto;
+  float: right;
+}

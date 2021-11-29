@@ -26,11 +26,11 @@ function fizzbuzzboom() {
     else if (i % 5 == 0) {
       document.writeln("Buzz ");
       console.log("Buzz");
-      }                 // if divisble by 5
+    }                 // if divisible by 5
     else if (i % 7 == 0) {
       document.writeln("Boom ");
       console.log("Boom");
-      }                // if divisble by 7
+    }                // if divisible by 7
     }
  }
 
