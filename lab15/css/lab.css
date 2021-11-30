@@ -21,3 +21,7 @@ h2{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: #f3ff12;
 }
+
+a {
+  color: black;
+}
