@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 16 - JSON and APIs</title>
+    <script src="js/lab.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/lab.css">
+  </head>
+  <body>
+    <div id="content">
+
+      <h2>Challenges</h2>
+      <p>Working with your partner, experiment with processing JSON from an API.</p>
+
+      <h2>Problems</h2>
+      <p>Some problems we had were getting a CORS blocked error as we tried to open the API on our webpage. When we later figured out to download the chrome CORS extension it still didn't work until we physically pinned the extenion to the page. Only then were we able to save the API information into a variable. Once we got that working we were trying to display the comic on the webpage using an append(img) in jQuery but image tags work differently. When we figured out to leave the source tag open before the information from the API and then close it after the information was pulled did the image load.</p>
+
+      <h2>Results</h2>
+      <div id="output">
+      </div>
+    </div>
+  </body>
+</html>

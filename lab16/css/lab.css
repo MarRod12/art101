@@ -1,0 +1,23 @@
+#content{
+  background: #C7CEEA;
+  border-style: dashed;
+  border-color: #FF9AA2;
+  padding: 30px;
+  width: 800px;
+  height: auto;
+  text-align: center;
+  border-radius: 25px;
+  margin: auto;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #B5EAD7, #E2F0CB, #FFDAC1, #FFB7B2);
+  height: 900px;
+}
+
+h2{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: #C7CEEA;
+}
